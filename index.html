@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Amatic+SC:wght@700&family=Caveat:wght@700&family=Indie+Flower&family=Shadows+Into+Light&family=Permanent+Marker&family=Kalam:wght@700&display=swap"
+    rel="stylesheet" />
+  <title>Feliz Cumpleaños Yuditt</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 768px)" />
+</head>
+
+<body>
+  <!--Confeti Atras-->
+  <canvas id="canvas1"></canvas>
+
+  <div class="contenedor">
+    <!-- PortaRetrato -->
+    <div class="portaretrato-torta-caja">
+      <div class="portaretrato">
+        <div class="marco">
+
+        </div>
+        <div class="soporte-marco"></div>
+      </div>
+
+      <!--Torta De Cumpleaños-->
+      <div class="torta-cumpleaños">
+        <div class="torta">
+          <div class="chocolate"></div>
+        </div>
+        <div class="vela"></div>
+        <div class="llama"></div>
+      </div>
+
+      <!--Caja De Regalo-->
+      <div class="caja-wrapper">
+        <div class="caja">
+          <div class="cinta-de-regalo">
+            <div class="cinta-de-regalo-izquierda"></div>
+            <div class="cinta-de-regalo-derecha"></div>
+            <div class="cinta-de-regalo-centro"></div>
+          </div>
+          <div class="regalos">
+            <div class="regalo-sombra"></div>
+          </div>
+          <div class="regalo"></div>
+          <div class="icono-estrella estrella1"></div>
+          <div class="icono-estrella estrella2"></div>
+          <div class="icono-estrella estrella3"></div>
+          <div class="icono-estrella estrella4"></div>
+          <div class="icono-estrella estrella5"></div>
+        </div>
+      </div>
+
+      <!--Mensaje Feliz Cumpleaños-->
+      <div class="happy-birthday">Feliz Cumpleaños Yuditt</div>
+    </div>
+
+    <!--Mesa-->
+    <div class="soporte"></div>
+  </div>
+
+  <!-- Carta Modal -->
+  <div class="modal-carta" id="modalCarta">
+    <div class="notas-container">
+
+      <div class="nota nota-1">
+        <p>Hoy en tu CUMPLEAÑOS que Dios...</p>
+      </div>
+
+      <div class="nota nota-2">
+        <p>MULTIPLIQUE</p>
+        <p>tus años de vida como la arena del mar y las estrellas de los cielos que no se pueden contar</p>
+      </div>
+
+      <div class="nota nota-3">
+        <p>que te dé SALUD... en abundancia y te renueve cada día como el águila.</p>
+      </div>
+
+      <div class="nota nota-4">
+        <p>y que ABRA las puertas de los cielos y derrame una lluvia de bendiciones sobre ti, hasta que sobreabunde</p>
+      </div>
+
+      <div class="nota nota-5">
+        <p class="ref">Números 6:24-26</p>
+        <p>JEHOVÁ te bendiga, y te guarde; Jehová haga resplandecer su rostro sobre ti, y tenga de ti misericordia;
+          Jehová alce sobre ti su rostro, y ponga en ti paz.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!--Confeti Delante-->
+  <canvas id="canvas2"></canvas>
+
+  <!--Todo Oscuro-->
+  <audio id="soplido" src="/proyectos/Feliz Cumpleaños/recursos/soplar1.mp3" preload="auto"></audio>
+  <audio id="cancion" src="/proyectos/Feliz Cumpleaños/recursos/cancion.mp3" preload="auto"></audio>
+  <div class="overlay"></div>
+
+  <script src="Confeti.js"></script>
+  <script src="Confeti2.js"></script>
+  <script src="Sorpresa.js"></script>
+</body>
+
+</html>
