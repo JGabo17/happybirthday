@@ -30,8 +30,8 @@
 
 /*Mensaje*/
 .happy-birthday {
-  top: -100%;
-  left: 120px;
+  top: -130px;
+  font-size: 34px;
 }
 
 /*Objetos de la mesa*/
@@ -94,9 +94,8 @@
   }
 
   .happy-birthday {
-    font-size: 36px;
-    top: -100%;
-    left: 130px; 
+    font-size: 30px;
+    top: -110px;
   }
 
   .portaretrato {
